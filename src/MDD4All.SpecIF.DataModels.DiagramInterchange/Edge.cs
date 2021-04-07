@@ -8,9 +8,8 @@ using System.Xml.Serialization;
 
 namespace MDD4All.SpecIF.DataModels.DiagramInterchange
 {
-    //[XmlInclude(typeof(MetadataContent))]
+
     [XmlType("edge", Namespace = "https://specif.de/schema/v1.1/DI")]
-    //[XmlRoot("metadata")]
     public class Edge
     {
 

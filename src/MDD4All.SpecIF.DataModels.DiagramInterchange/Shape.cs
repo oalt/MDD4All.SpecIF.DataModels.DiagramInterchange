@@ -1,10 +1,8 @@
 ﻿/*
  * Copyright (c) MDD4All.de, Dr. Oliver Alt
  */
-using MDD4All.SpecIF.DataModels.DiagramInterchange.BaseElements;
 using MDD4All.SpecIF.DataModels.DiagramInterchange.DiagramDefinition;
 using System.Xml;
-using System.Xml.Schema;
 using System.Xml.Serialization;
 
 namespace MDD4All.SpecIF.DataModels.DiagramInterchange

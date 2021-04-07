@@ -12,5 +12,9 @@
         <DebugType>full</DebugType>
         <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\SvgGeneration\src\MDD4All.SVG.DataModels\MDD4All.SVG.DataModels.csproj" />
+    </ItemGroup>
     
 </Project>
