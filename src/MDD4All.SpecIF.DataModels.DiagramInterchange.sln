@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.SpecIF.DataModels.DiagramInterchange", "MDD4All.SpecIF.DataModels.DiagramInterchange\MDD4All.SpecIF.DataModels.DiagramInterchange.csproj", "{00ACC0A6-993A-43D9-A819-A58B032AEDD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F37B6F61-34BE-40AB-8CFC-37C8956B3739}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\build.yml = ..\.github\workflows\build.yml
+		version.txt = version.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{E0733760-EC0E-447B-B1E2-95F8E913B6BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDD4All.SVG.DataModels", "MDD4All.SVG.DataModels\src\MDD4All.SVG.DataModels\MDD4All.SVG.DataModels.csproj", "{CE263FE5-CC5E-445F-9A33-761A0FC621B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00ACC0A6-993A-43D9-A819-A58B032AEDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ACC0A6-993A-43D9-A819-A58B032AEDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ACC0A6-993A-43D9-A819-A58B032AEDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ACC0A6-993A-43D9-A819-A58B032AEDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE263FE5-CC5E-445F-9A33-761A0FC621B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE263FE5-CC5E-445F-9A33-761A0FC621B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE263FE5-CC5E-445F-9A33-761A0FC621B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE263FE5-CC5E-445F-9A33-761A0FC621B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE263FE5-CC5E-445F-9A33-761A0FC621B1} = {E0733760-EC0E-447B-B1E2-95F8E913B6BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5ECCE3E-0899-48BD-822E-29756EB04913}
+	EndGlobalSection
+EndGlobal
