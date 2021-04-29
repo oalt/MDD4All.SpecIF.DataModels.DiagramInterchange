@@ -1,0 +1,3 @@
+[submodule "src/MDD4All.SVG.DataModels"]
+	path = src/MDD4All.SVG.DataModels
+	url = https://github.com/oalt/MDD4All.SVG.DataModels.git
