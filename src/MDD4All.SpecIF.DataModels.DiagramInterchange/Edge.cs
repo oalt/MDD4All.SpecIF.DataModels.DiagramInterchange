@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 namespace MDD4All.SpecIF.DataModels.DiagramInterchange
 {
 
-    [XmlType("edge", Namespace = "https://specif.de/schema/v1.1/DI")]
+    [XmlType("edge", Namespace = "https://specif.de/v1.1/schema-DI")]
     public class Edge
     {
 
@@ -40,7 +40,7 @@ namespace MDD4All.SpecIF.DataModels.DiagramInterchange
         [XmlElement("targetResourceReference")]
         public ResourceReference TargetResourceReference { get; set; }
 
-        [XmlArray("statementReferences", Namespace = "https://specif.de/schema/v1.1/DI")]
+        [XmlArray("statementReferences", Namespace = "https://specif.de/v1.1/schema-DI")]
         public List<SpecIfReferenceBase> References = new List<SpecIfReferenceBase>();
 
         [XmlArray("waypoints", Namespace = "http://www.omg.org/spec/DD/20100524/DI")]

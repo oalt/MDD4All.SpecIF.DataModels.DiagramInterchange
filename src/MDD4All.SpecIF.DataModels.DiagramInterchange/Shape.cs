@@ -8,8 +8,8 @@ using System.Xml.Serialization;
 namespace MDD4All.SpecIF.DataModels.DiagramInterchange
 {
 
-    [XmlType(TypeName = "shape", Namespace = "https://specif.de/schema/v1.1/DI")]
-    [XmlRoot("shape", Namespace = "https://specif.de/schema/v1.1/DI")]
+    [XmlType(TypeName = "shape", Namespace = "https://specif.de/v1.1/schema-DI")]
+    [XmlRoot("shape", Namespace = "https://specif.de/v1.1/schema-DI")]
     public class Shape
     {
         public Shape()
@@ -17,7 +17,7 @@ namespace MDD4All.SpecIF.DataModels.DiagramInterchange
 
         }
 
-        [XmlElement("resourceReference", Namespace = "https://specif.de/schema/v1.1/DI")]
+        [XmlElement("resourceReference", Namespace = "https://specif.de/v1.1/schema-DI")]
         public ResourceReference ResourceReference { get; set; }
 
         [XmlElement("Bounds",  Namespace = "http://www.omg.org/spec/DD/20100524/DC")]

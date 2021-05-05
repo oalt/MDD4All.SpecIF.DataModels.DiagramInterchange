@@ -16,7 +16,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="$(SolutionDir)\MDD4All.SVG.DataModels\src\MDD4All.SVG.DataModels\MDD4All.SVG.DataModels.csproj" />
+      <PackageReference Include="MDD4All.SVG.DataModels" Version="3.0.0.3" />
     </ItemGroup>
     
 </Project>

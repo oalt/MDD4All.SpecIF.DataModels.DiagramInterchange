@@ -8,10 +8,13 @@ namespace MDD4All.SpecIF.DataModels.DiagramInterchange
 {
     public class SpecIfMetadata : Metadata
     {
-        [XmlElement("shape", Namespace = "https://specif.de/schema/v1.1/DI")]
+        [XmlElement("diagram", Namespace = "https://specif.de/v1.1/schema-DI")]
+        public Diagram Diagram { get; set; } = null;
+
+        [XmlElement("shape", Namespace = "https://specif.de/v1.1/schema-DI")]
         public Shape Shape { get; set; } = null;
 
-        [XmlElement("edge", Namespace = "https://specif.de/schema/v1.1/DI")]
+        [XmlElement("edge", Namespace = "https://specif.de/v1.1/schema-DI")]
         public Edge Edge { get; set; } = null;
     }
 }
