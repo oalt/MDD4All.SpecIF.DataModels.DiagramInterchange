@@ -7,6 +7,9 @@
     <Description>Data models for OMG Diagram Definition serialization</Description>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>SpecIF DiagramInterchange DataModels</PackageTags>
+    <Copyright>(c) MDD4All.de</Copyright>
   </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
