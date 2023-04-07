@@ -21,7 +21,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\MDD4All.SVG.DataModels\src\MDD4All.SVG.DataModels\MDD4All.SVG.DataModels.csproj" />
+      <ProjectReference Include="..\..\..\MDD4All.SVG.DataModels\src\MDD4All.SVG.DataModels\MDD4All.SVG.DataModels-dev.csproj" />
     </ItemGroup>
     
 </Project>
